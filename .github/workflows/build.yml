@@ -18,8 +18,8 @@ jobs:
       fail-fast: false
       max-parallel: 1
       matrix:
-        variant: [silverblue, kinoite]
-        version: [36, 37, rawhide]
+        variant: [silverblue]
+        version: [37, 38]
     runs-on: ubuntu-latest
     container:
       # We're using coreos-assembler just since it is a pre-made
